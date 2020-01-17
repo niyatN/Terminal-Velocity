@@ -1,0 +1,31 @@
+{
+    "airport":[
+        {
+            "name":"dd",
+            "terminal-count":2,
+            "terminal":[
+                {
+                    "terminal-name":1,
+                    "gate-count":3,
+                    "airline":[
+                        {
+                            "airline-name":"indigo",
+                            "stall":1
+                        },
+                        {
+                            "airline-name":"vistara",
+                            "stall":2
+                        },
+                        {
+                            "airline-name":"air-india",
+                            "stall":3
+                        }
+                    ]
+
+                }
+                
+
+            ]
+        }
+    ]
+}
