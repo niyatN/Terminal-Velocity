@@ -11,7 +11,7 @@ const spawn = require("child_process").spawn;
 
 app.use(cors())
 
-mongoose.connect('mongodb+srv://nikhil:tonypk25@cluster0-zvasu.mongodb.net/test?retryWrites=true&w=majority',{ useNewUrlParser: true });
+mongoose.connect(<MONGO_URL>,{ useNewUrlParser: true });
 var db = mongoose.connection;
 db.on('error', console.error.bind(console, 'connection error:'));
 db.once('open', function() {
